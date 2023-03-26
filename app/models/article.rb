@@ -12,5 +12,4 @@ class Article < ApplicationRecord
   def date
     created_at.strftime('%B %e, %Y')
   end
-
 end
